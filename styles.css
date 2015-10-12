@@ -1,0 +1,47 @@
+.main {
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to top, gray, white);
+}
+
+.menu {
+    width: 100%;
+}
+
+
+.menu td:hover {
+    background: coral;
+    cursor: pointer;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
+    background: url(yoko.png) no-repeat;
+    -webkit-background-size: cover;
+}
+
+.img {
+    float:left;
+    margin-right: 20px;
+}
+
+.footer {
+    height: 20px;
+    text-align: right;
+    background: whitesmoke;
+}
+
+.content {
+    margin: 20px 20px 20px 20px;
+    text-align: left;
+}
+
+.menu td {
+    width: 25%;
+    height: 50px;
+    background: whitesmoke;
+}
